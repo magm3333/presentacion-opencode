@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Primer prompt robusto para QRGen">
+  <defs>
+    <linearGradient id="prompt-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1c2a55"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  <circle cx="580" cy="180" r="230" fill="#59d6ff" fill-opacity="0.1"/>
+  <circle cx="180" cy="600" r="230" fill="#9bffb1" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="60" width="620" height="500" rx="30" fill="url(#prompt-bg)" stroke="#9bffb1" stroke-opacity="0.55" stroke-width="3"/>
+    <rect x="70" y="60" width="620" height="64" rx="30" fill="#17213f"/>
+    <text x="380" y="102" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="24" font-weight="800">Stack + Objetivo Funcional</text>
+    
+    <g transform="translate(110, 170)" font-family="JetBrains Mono,monospace" font-size="18">
+      <text y="0" fill="#aab7d4">Inicia QRGen en <tspan fill="#59d6ff">magm3333/qrgen</tspan></text>
+      <text y="40" fill="#aab7d4">Usa <tspan fill="#9bffb1">Vue 3 + Vite</tspan> / <tspan fill="#ffd166">GitHub Pages</tspan></text>
+      <text y="80" fill="#eef4ff" font-weight="700">Objetivo: Generador codigos QR</text>
+      <text y="120" fill="#aab7d4">Propone el <tspan fill="#9bffb1">plan de fases</tspan> completo</text>
+      <text y="160" fill="#aab7d4">Hito 1: <tspan fill="#59d6ff">Estructura + QR funcional</tspan></text>
+      <text y="210" fill="#ff8fab" font-weight="800">No implementes todavía</text>
+    </g>
+
+    <path d="M110 420 H610" stroke="#aab7d4" stroke-opacity="0.2" stroke-width="2"/>
+    <text x="380" y="485" text-anchor="middle" fill="#9bffb1" font-family="Inter,Arial" font-size="20" font-weight="700">tecnología + producto + orden</text>
+    <text x="380" y="520" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="16">El plan inicial ya incluye valor funcional visible.</text>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(110, 600)">
+    <rect width="540" height="90" rx="28" fill="#111a33" stroke="#ffd166" stroke-opacity="0.7" stroke-width="3"/>
+    <text x="270" y="42" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="20" font-weight="800">Planificación Orientada a Valor</text>
+    <text x="270" y="70" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="16">Evitamos fases puramente tecnicas sin salida visual.</text>
+  </g>
+</svg>

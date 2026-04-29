@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="OpenCode controlando un flujo de trabajo con planes Plannotator">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="62%">
+      <stop offset="0" stop-color="#59d6ff" stop-opacity="0.38"/>
+      <stop offset="0.48" stop-color="#17213f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#070a13" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="node" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#203466"/>
+      <stop offset="1" stop-color="#0e1730"/>
+    </linearGradient>
+    <linearGradient id="plan" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1d2a55"/>
+      <stop offset="1" stop-color="#111a33"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="#070a13"/>
+  <rect width="1600" height="900" fill="url(#halo)"/>
+
+  <g opacity="0.18" stroke="#59d6ff" stroke-width="1.2">
+    <path d="M0 142 H1600M0 284 H1600M0 426 H1600M0 568 H1600M0 710 H1600"/>
+    <path d="M160 0 V900M320 0 V900M480 0 V900M640 0 V900M800 0 V900M960 0 V900M1120 0 V900M1280 0 V900M1440 0 V900"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="570" y="260" width="460" height="310" rx="34" fill="url(#node)" stroke="#59d6ff" stroke-opacity="0.58" stroke-width="3"/>
+    <rect x="610" y="310" width="380" height="58" rx="16" fill="#070a13" stroke="#9bffb1" stroke-opacity="0.45"/>
+    <text x="800" y="348" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="30" font-weight="800">OpenCode</text>
+    <text x="800" y="414" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="24">lee contexto</text>
+    <text x="800" y="454" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="24">ejecuta fases</text>
+    <text x="800" y="494" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="24">verifica y documenta</text>
+  </g>
+
+  <g fill="url(#plan)" stroke="#ffd166" stroke-opacity="0.64" stroke-width="2.5" filter="url(#shadow)">
+    <rect x="130" y="168" width="300" height="132" rx="24"/>
+    <rect x="130" y="384" width="300" height="132" rx="24"/>
+    <rect x="130" y="600" width="300" height="132" rx="24"/>
+  </g>
+
+  <g fill="url(#plan)" stroke="#9bffb1" stroke-opacity="0.64" stroke-width="2.5" filter="url(#shadow)">
+    <rect x="1170" y="168" width="300" height="132" rx="24"/>
+    <rect x="1170" y="384" width="300" height="132" rx="24"/>
+    <rect x="1170" y="600" width="300" height="132" rx="24"/>
+  </g>
+
+  <g font-family="Inter,Arial" font-size="25" font-weight="760">
+    <text x="280" y="222" text-anchor="middle" fill="#eef4ff">Plan</text>
+    <text x="280" y="258" text-anchor="middle" fill="#aab7d4" font-size="20">objetivo + alcance</text>
+    <text x="280" y="438" text-anchor="middle" fill="#eef4ff">Fases</text>
+    <text x="280" y="474" text-anchor="middle" fill="#aab7d4" font-size="20">entregables visibles</text>
+    <text x="280" y="654" text-anchor="middle" fill="#eef4ff">Anotaciones</text>
+    <text x="280" y="690" text-anchor="middle" fill="#aab7d4" font-size="20">correcciones vivas</text>
+    <text x="1320" y="222" text-anchor="middle" fill="#eef4ff">Implementacion</text>
+    <text x="1320" y="258" text-anchor="middle" fill="#aab7d4" font-size="20">cambios acotados</text>
+    <text x="1320" y="438" text-anchor="middle" fill="#eef4ff">Verificacion</text>
+    <text x="1320" y="474" text-anchor="middle" fill="#aab7d4" font-size="20">build + revision</text>
+    <text x="1320" y="654" text-anchor="middle" fill="#eef4ff">Deploy</text>
+    <text x="1320" y="690" text-anchor="middle" fill="#aab7d4" font-size="20">GitHub Pages</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-width="7">
+    <path d="M430 234 C500 248 520 308 570 340" stroke="#ffd166" stroke-opacity="0.78"/>
+    <path d="M430 450 C500 444 520 420 570 414" stroke="#ffd166" stroke-opacity="0.72"/>
+    <path d="M430 666 C504 620 518 526 570 494" stroke="#ffd166" stroke-opacity="0.66"/>
+    <path d="M1030 340 C1090 308 1108 248 1170 234" stroke="#9bffb1" stroke-opacity="0.78"/>
+    <path d="M1030 414 C1098 418 1112 442 1170 450" stroke="#9bffb1" stroke-opacity="0.72"/>
+    <path d="M1030 494 C1090 526 1108 620 1170 666" stroke="#9bffb1" stroke-opacity="0.66"/>
+  </g>
+
+  <g fill="#59d6ff" opacity="0.78">
+    <circle cx="800" cy="150" r="6"/>
+    <circle cx="860" cy="190" r="4"/>
+    <circle cx="735" cy="198" r="4"/>
+    <circle cx="910" cy="620" r="5"/>
+    <circle cx="690" cy="636" r="5"/>
+  </g>
+</svg>

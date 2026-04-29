@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Markdown como panel de control">
+  <defs>
+    <linearGradient id="md-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111a33"/>
+      <stop offset="1" stop-color="#050914"/>
+    </linearGradient>
+    <filter id="shadow-md" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  
+  <g filter="url(#shadow-md)">
+    <rect x="80" y="80" width="300" height="360" rx="26" fill="url(#md-bg)" stroke="#59d6ff" stroke-opacity="0.5" stroke-width="3"/>
+    <text x="110" y="130" fill="#9bffb1" font-family="Inter,Arial" font-size="20" font-weight="800">fases-qrgen.md</text>
+    <text x="110" y="180" fill="#eef4ff" font-family="Inter,Arial" font-size="16">## Fase 1</text>
+    <text x="110" y="210" fill="#aab7d4" font-family="Inter,Arial" font-size="14">- [x] Bootstrap</text>
+    <text x="110" y="240" fill="#aab7d4" font-family="Inter,Arial" font-size="14">- [ ] Config Base</text>
+    <rect x="100" y="260" width="260" height="60" rx="10" fill="#17213f" stroke="#ffd166" stroke-width="1.5"/>
+    <text x="110" y="285" fill="#ffe6a3" font-family="Inter,Arial" font-size="12" font-style="italic">"Recordá el deploy"</text>
+    <text x="110" y="300" fill="#ffe6a3" font-family="Inter,Arial" font-size="12" font-style="italic">"en gh-pages"</text>
+  </g>
+
+  <g filter="url(#shadow-md)" transform="translate(420, 220)">
+    <rect width="280" height="120" rx="28" fill="#111a33" stroke="#9bffb1" stroke-width="4"/>
+    <text x="140" y="55" text-anchor="middle" fill="#eef4ff" font-family="monospace" font-size="22">@fases.md</text>
+    <text x="140" y="85" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="16">referencia de contexto</text>
+  </g>
+
+  <g transform="translate(100, 480)">
+    <rect x="50" y="40" width="560" height="110" rx="28" fill="#111a33" stroke="#59d6ff" stroke-opacity="0.7" stroke-width="3"/>
+    <text x="330" y="85" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="20" font-weight="800">1. Humano edita el archivo</text>
+    <text x="330" y="115" text-anchor="middle" fill="#9bffb1" font-family="Inter,Arial" font-size="18">2. IA lee el contexto actualizado</text>
+  </g>
+
+  <path d="M380 180 Q450 180 450 220" fill="none" stroke="#59d6ff" stroke-width="6" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M450 340 Q450 380 380 380" fill="none" stroke="#59d6ff" stroke-width="6" stroke-linecap="round" stroke-opacity="0.5"/>
+</svg>

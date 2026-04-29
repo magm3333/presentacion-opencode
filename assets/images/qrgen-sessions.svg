@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Sesiones vinculadas a fases de QRGen">
+  <defs>
+    <linearGradient id="panel-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1c2a55"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  <circle cx="580" cy="180" r="230" fill="#59d6ff" fill-opacity="0.1"/>
+  <circle cx="180" cy="600" r="230" fill="#9bffb1" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="80" width="300" height="120" rx="26" fill="url(#panel-bg)" stroke="#9bffb1" stroke-opacity="0.6" stroke-width="3"/>
+    <text x="230" y="135" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="24" font-weight="800">Fase 1: Base</text>
+    <text x="230" y="165" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="16">Hito del Plan</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="420" y="240" width="260" height="90" rx="22" fill="#111a33" stroke="#59d6ff" stroke-opacity="0.7" stroke-width="3"/>
+    <text x="550" y="292" text-anchor="middle" fill="#eef4ff" font-family="monospace" font-size="18">/sessions</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="400" width="340" height="140" rx="30" fill="url(#panel-bg)" stroke="#ffd166" stroke-opacity="0.6" stroke-width="3"/>
+    <text x="250" y="460" text-anchor="middle" fill="#ffe6a3" font-family="Inter,Arial" font-size="22" font-weight="900">Sesion: Fase 1</text>
+    <text x="250" y="495" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="15">Contexto asilado de la tarea</text>
+  </g>
+
+  <path d="M230 200 V400" stroke="#59d6ff" stroke-width="6" stroke-dasharray="10,8" stroke-opacity="0.5"/>
+  <path d="M420 285 H230" stroke="#ffd166" stroke-width="6" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M230 285 l18 -10 v20 z" fill="#ffd166"/>
+
+  <text x="380" y="680" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="20">Sincronía entre Planificación y Ejecución</text>
+</svg>

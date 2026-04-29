@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="OpenCode y tareas de desarrollo">
+  <defs>
+    <linearGradient id="core" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#203466"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  <circle cx="380" cy="380" r="300" fill="#59d6ff" fill-opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <circle cx="380" cy="380" r="146" fill="url(#core)" stroke="#59d6ff" stroke-opacity="0.72" stroke-width="4"/>
+    <text x="380" y="370" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="42" font-weight="900">OpenCode</text>
+    <text x="380" y="414" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="22">asistente en el repo</text>
+  </g>
+  <g font-family="Inter,Arial" font-size="22" font-weight="760" text-anchor="middle">
+    <g filter="url(#shadow)">
+      <rect x="270" y="72" width="220" height="82" rx="22" fill="#111a33" stroke="#ffd166" stroke-opacity="0.65" stroke-width="3"/>
+      <text x="380" y="122" fill="#eef4ff">Leer contexto</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="508" y="230" width="190" height="82" rx="22" fill="#111a33" stroke="#9bffb1" stroke-opacity="0.65" stroke-width="3"/>
+      <text x="603" y="280" fill="#eef4ff">Planificar</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="508" y="448" width="190" height="82" rx="22" fill="#111a33" stroke="#59d6ff" stroke-opacity="0.65" stroke-width="3"/>
+      <text x="603" y="498" fill="#eef4ff">Implementar</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="270" y="606" width="220" height="82" rx="22" fill="#111a33" stroke="#ff8fab" stroke-opacity="0.65" stroke-width="3"/>
+      <text x="380" y="656" fill="#eef4ff">Verificar</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="62" y="448" width="190" height="82" rx="22" fill="#111a33" stroke="#ffd166" stroke-opacity="0.65" stroke-width="3"/>
+      <text x="157" y="498" fill="#eef4ff">Documentar</text>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="62" y="230" width="190" height="82" rx="22" fill="#111a33" stroke="#9bffb1" stroke-opacity="0.65" stroke-width="3"/>
+      <text x="157" y="280" fill="#eef4ff">Resumir</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#59d6ff" stroke-width="5" stroke-linecap="round" stroke-opacity="0.52">
+    <path d="M380 154 V232"/>
+    <path d="M504 306 L458 334"/>
+    <path d="M504 454 L458 426"/>
+    <path d="M380 606 V528"/>
+    <path d="M256 454 L302 426"/>
+    <path d="M256 306 L302 334"/>
+  </g>
+</svg>

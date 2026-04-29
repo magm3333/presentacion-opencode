@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Flujo de construcción: QRGen">
+  <defs>
+    <linearGradient id="panel-grad-qr" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1c2a55"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="shadow-flow-qr" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  <circle cx="580" cy="160" r="230" fill="#9bffb1" fill-opacity="0.08"/>
+  <circle cx="170" cy="620" r="230" fill="#59d6ff" fill-opacity="0.1"/>
+
+  <!-- PLAN (QR) -->
+  <g filter="url(#shadow-flow-qr)" font-family="Inter,Arial" text-anchor="middle">
+    <rect x="86" y="112" width="220" height="110" rx="26" fill="url(#panel-grad-qr)" stroke="#ffd166" stroke-opacity="0.72" stroke-width="4"/>
+    <text x="196" y="158" fill="#eef4ff" font-size="25" font-weight="900">fases-qrgen.md</text>
+    <rect x="146" y="80" width="100" height="30" rx="8" fill="#ffd166"/>
+    <text x="196" y="102" fill="#070a13" font-size="16" font-weight="900">PLAN</text>
+  </g>
+
+  <!-- ANOTACION (QR) -->
+  <g filter="url(#shadow-flow-qr)" font-family="Inter,Arial" text-anchor="middle">
+    <rect x="454" y="112" width="220" height="110" rx="26" fill="url(#panel-grad-qr)" stroke="#9bffb1" stroke-opacity="0.72" stroke-width="3"/>
+    <text x="564" y="158" fill="#eef4ff" font-size="25" font-weight="900">Anotacion</text>
+    <text x="564" y="192" fill="#aab7d4" font-size="18">correccion humana</text>
+  </g>
+
+  <!-- PRODUCTO (QR) -->
+  <g filter="url(#shadow-flow-qr)" font-family="Inter,Arial" text-anchor="middle">
+    <rect x="86" y="408" width="220" height="110" rx="26" fill="url(#panel-grad-qr)" stroke="#9bffb1" stroke-opacity="0.72" stroke-width="4"/>
+    <text x="196" y="454" fill="#eef4ff" font-size="25" font-weight="900">Site / App</text>
+    <rect x="116" y="525" width="160" height="30" rx="8" fill="#9bffb1"/>
+    <text x="196" y="547" fill="#070a13" font-size="16" font-weight="900">PRODUCTO FINAL</text>
+  </g>
+
+  <!-- BUILD / DEPLOY (QR) -->
+  <g filter="url(#shadow-flow-qr)" font-family="Inter,Arial" text-anchor="middle">
+    <rect x="454" y="408" width="220" height="110" rx="26" fill="url(#panel-grad-qr)" stroke="#ff8fab" stroke-opacity="0.72" stroke-width="3"/>
+    <text x="564" y="454" fill="#eef4ff" font-size="25" font-weight="900">Build</text>
+    <text x="564" y="488" fill="#aab7d4" font-size="18">npm run build</text>
+  </g>
+
+  <g fill="none" stroke="#9bffb1" stroke-width="7" stroke-linecap="round" stroke-opacity="0.62">
+    <path d="M306 167 H454"/>
+    <path d="M564 222 C560 310 518 360 454 408"/>
+    <path d="M454 463 H306"/>
+    <path d="M196 408 C156 336 156 292 196 222"/>
+  </g>
+  <g fill="#9bffb1" opacity="0.72">
+    <path d="M454 167 l-24 -14 v28 z"/>
+    <path d="M454 408 l26 -8 l-16 24 z"/>
+    <path d="M306 463 l24 -14 v28 z"/>
+    <path d="M196 222 l-18 22 l36 -2 z"/>
+  </g>
+  <text x="380" y="650" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="20">QRGen: El Plan construye la App</text>
+</svg>

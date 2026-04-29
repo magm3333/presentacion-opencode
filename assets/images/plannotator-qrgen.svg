@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Plannotator orquestando QRGen">
+  <defs>
+    <linearGradient id="core-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#24335f"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#59d6ff" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  
+  <g filter="url(#glow)">
+    <rect x="100" y="100" width="560" height="460" rx="34" fill="url(#core-bg)" stroke="#59d6ff" stroke-width="3"/>
+    <text x="380" y="150" text-anchor="middle" fill="#eef4ff" font-family="Inter,Arial" font-size="28" font-weight="900">Plannotator</text>
+    <text x="380" y="185" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="16">Cargando fases-qrgen.md</text>
+  </g>
+
+  <g transform="translate(140, 240)">
+    <rect width="480" height="70" rx="18" fill="#111a33" stroke="#9bffb1" stroke-opacity="0.6"/>
+    <circle cx="30" cy="35" r="8" fill="#9bffb1"/>
+    <text x="60" y="42" fill="#eef4ff" font-family="Inter,Arial" font-size="18">🟢 final - Fase 1: Estructura Base</text>
+    
+    <rect y="100" width="480" height="70" rx="18" fill="#111a33" stroke="#ffd166" stroke-opacity="0.6"/>
+    <circle cx="30" cy="135" r="8" fill="#ffd166"/>
+    <text x="60" y="142" fill="#eef4ff" font-family="Inter,Arial" font-size="18">🟠 anotada - Fase 2: Generador QR</text>
+    <text x="80" y="160" fill="#aab7d4" font-family="Inter,Arial" font-size="14">Anotación: "Añadir JPG además de PNG"</text>
+
+    <rect y="200" width="480" height="70" rx="18" fill="#111a33" stroke="#aab7d4" stroke-opacity="0.3"/>
+    <circle cx="30" cy="235" r="8" fill="#aab7d4"/>
+    <text x="60" y="242" fill="#aab7d4" font-family="Inter,Arial" font-size="18">⚪ idea - Fase 3: Descarga y Formatos</text>
+  </g>
+
+  <text x="380" y="680" text-anchor="middle" fill="#9bffb1" font-family="Inter,Arial" font-size="22" font-weight="800">Control Humano sobre la IA</text>
+</svg>

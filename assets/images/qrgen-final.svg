@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="Mock de QRGen final">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#152046"/>
+      <stop offset="1" stop-color="#090d1a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#1c2a55"/>
+      <stop offset="1" stop-color="#111a33"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="34" fill="url(#bg)"/>
+  <rect x="44" y="44" width="812" height="70" rx="18" fill="url(#panel)" stroke="#59d6ff" stroke-opacity=".35"/>
+  <text x="76" y="89" fill="#eef4ff" font-family="Inter,Arial" font-size="28" font-weight="700">QRGen</text>
+  <rect x="680" y="62" width="72" height="34" rx="17" fill="#59d6ff" fill-opacity=".18"/>
+  <text x="694" y="85" fill="#9bffb1" font-family="Inter,Arial" font-size="15">Tema</text>
+  <rect x="766" y="62" width="58" height="34" rx="17" fill="#ff6b6b" fill-opacity=".18"/>
+  <text x="780" y="85" fill="#ffd0d0" font-family="Inter,Arial" font-size="15">Salir</text>
+  <rect x="44" y="140" width="258" height="396" rx="22" fill="#111a33" stroke="#aab7d4" stroke-opacity=".18"/>
+  <text x="72" y="182" fill="#eef4ff" font-family="Inter,Arial" font-size="22" font-weight="700">Generador QR</text>
+  <rect x="72" y="210" width="202" height="42" rx="10" fill="#070a13" stroke="#59d6ff" stroke-opacity=".28"/>
+  <text x="88" y="237" fill="#aab7d4" font-family="Inter,Arial" font-size="15">https://ejemplo.com</text>
+  <rect x="86" y="282" width="170" height="170" rx="10" fill="#f7fbff"/>
+  <g fill="#0b1020">
+    <rect x="106" y="302" width="34" height="34"/><rect x="202" y="302" width="34" height="34"/><rect x="106" y="398" width="34" height="34"/>
+    <rect x="154" y="302" width="14" height="14"/><rect x="174" y="322" width="14" height="14"/><rect x="154" y="350" width="42" height="14"/><rect x="214" y="350" width="14" height="42"/><rect x="154" y="386" width="14" height="46"/><rect x="186" y="402" width="50" height="14"/>
+  </g>
+  <rect x="72" y="476" width="202" height="38" rx="19" fill="#59d6ff"/>
+  <text x="118" y="501" fill="#07101f" font-family="Inter,Arial" font-size="16" font-weight="700">Descargar QR</text>
+  <rect x="332" y="140" width="524" height="396" rx="22" fill="#111a33" stroke="#aab7d4" stroke-opacity=".18"/>
+  <text x="362" y="182" fill="#eef4ff" font-family="Inter,Arial" font-size="22" font-weight="700">Editor visual</text>
+  <rect x="382" y="214" width="424" height="260" rx="18" fill="#24335f"/>
+  <circle cx="476" cy="300" r="64" fill="#9bffb1" fill-opacity=".18"/>
+  <rect x="566" y="282" width="126" height="126" rx="12" fill="#f7fbff" transform="rotate(-12 629 345)"/>
+  <rect x="566" y="282" width="126" height="126" rx="12" fill="none" stroke="#59d6ff" stroke-width="4" transform="rotate(-12 629 345)"/>
+  <circle cx="612" cy="259" r="8" fill="#59d6ff"/>
+  <circle cx="552" cy="300" r="7" fill="#9bffb1"/><circle cx="706" cy="269" r="7" fill="#9bffb1"/><circle cx="583" cy="423" r="7" fill="#9bffb1"/><circle cx="737" cy="392" r="7" fill="#9bffb1"/>
+  <rect x="382" y="494" width="104" height="28" rx="14" fill="#59d6ff" fill-opacity=".18"/>
+  <text x="407" y="514" fill="#59d6ff" font-family="Inter,Arial" font-size="14">Exportar</text>
+  <rect x="500" y="494" width="104" height="28" rx="14" fill="#9bffb1" fill-opacity=".14"/>
+  <text x="528" y="514" fill="#9bffb1" font-family="Inter,Arial" font-size="14">Importar</text>
+  <rect x="618" y="494" width="118" height="28" rx="14" fill="#ffd166" fill-opacity=".15"/>
+  <text x="641" y="514" fill="#ffd166" font-family="Inter,Arial" font-size="14">Exportar PNG</text>
+</svg>

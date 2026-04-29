@@ -1,0 +1,13 @@
+{
+  "name": "presentacion-opencode",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "marp -s . --theme themes/qrgen.css",
+    "build": "rm -rf dist && mkdir -p dist && marp --theme themes/qrgen.css slides.md -o dist/index.html --html && cp -R assets dist/assets",
+    "pdf": "marp --theme themes/qrgen.css slides.md -o dist/presentacion-opencode.pdf --allow-local-files"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  }
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Visualización vs Gestión en Plannotator">
+  <defs>
+    <linearGradient id="t-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111a33"/>
+      <stop offset="1" stop-color="#050914"/>
+    </linearGradient>
+    <filter id="gl" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#59d6ff" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+  
+  <g filter="url(#gl)">
+    <rect x="70" y="80" width="620" height="180" rx="28" fill="url(#t-bg)" stroke="#9bffb1" stroke-opacity="0.4" stroke-width="3"/>
+    <text x="100" y="130" fill="#9bffb1" font-family="monospace" font-size="22">TUI > /plan</text>
+    <text x="100" y="170" fill="#aab7d4" font-family="monospace" font-size="18">"Muestra el texto por pantalla..."</text>
+    <text x="100" y="210" fill="#ff8fab" font-family="monospace" font-size="16">No activa el motor interactivo</text>
+  </g>
+
+  <g filter="url(#gl)">
+    <rect x="70" y="300" width="620" height="280" rx="28" fill="url(#t-bg)" stroke="#59d6ff" stroke-width="3"/>
+    <text x="100" y="350" fill="#59d6ff" font-family="monospace" font-size="22">Plannotator Tool</text>
+    <text x="100" y="390" fill="#eef4ff" font-family="monospace" font-size="20">/qrgen_demo/fases-qrgen.md</text>
+    <path d="M100 440 H620" stroke="#aab7d4" stroke-opacity="0.2" stroke-width="2"/>
+    <text x="380" y="500" text-anchor="middle" fill="#9bffb1" font-family="Inter,Arial" font-size="24" font-weight="900">INTERACTIVE MANAGEMENT</text>
+    <text x="380" y="540" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="18">Anotaciones + Ciclo de Vida de Tareas</text>
+  </g>
+
+  <g transform="translate(130, 620)">
+    <rect width="500" height="80" rx="28" fill="#111a33" stroke="#ffd166" stroke-opacity="0.7" stroke-width="3"/>
+    <text x="250" y="48" text-anchor="middle" fill="#ffe6a3" font-family="Inter,Arial" font-size="20" font-weight="800">Modo Plan: Obligatorio para Control</text>
+  </g>
+</svg>
