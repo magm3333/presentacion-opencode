@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-label="Recomendación de potencia de modelos">
+  <defs>
+    <filter id="glow-p" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#ffd166" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" rx="44" fill="#070a13"/>
+
+  <!-- Planning -->
+  <g transform="translate(100, 100)" filter="url(#glow-p)">
+    <rect width="560" height="220" rx="30" fill="#111a33" stroke="#ffd166" stroke-width="4"/>
+    <text x="50" y="70" fill="#ffd166" font-family="Inter,Arial" font-size="32" font-weight="900">PLANIFICACION</text>
+    <text x="50" y="120" fill="#eef4ff" font-family="Inter,Arial" font-size="22">Requiere modelos con más RAZONAMIENTO.</text>
+    <text x="50" y="160" fill="#aab7d4" font-family="Inter,Arial" font-size="18">Ej: Claude 3.5 Sonnet / GPT-4o / Gemini 1.5 Pro</text>
+    <rect x="50" y="180" width="460" height="10" rx="5" fill="#ffd166"/>
+  </g>
+
+  <!-- Technical / Coding -->
+  <g transform="translate(100, 400)">
+    <rect width="560" height="220" rx="30" fill="#111a33" stroke="#9bffb1" stroke-width="4"/>
+    <text x="50" y="70" fill="#9bffb1" font-family="Inter,Arial" font-size="32" font-weight="900">IMPLEMENTACION</text>
+    <text x="50" y="120" fill="#eef4ff" font-family="Inter,Arial" font-size="22">Puede usar modelos más RÁPIDOS y ligeros.</text>
+    <text x="50" y="160" fill="#aab7d4" font-family="Inter,Arial" font-size="18">Ej: Claude Haiku / GPT-4o-mini / Gemini Flash</text>
+    <rect x="50" y="180" width="230" height="10" rx="5" fill="#9bffb1"/>
+  </g>
+
+  <text x="380" y="710" text-anchor="middle" fill="#aab7d4" font-family="Inter,Arial" font-size="20" font-weight="800">Uso eficiente de la potencia de IA</text>
+</svg>

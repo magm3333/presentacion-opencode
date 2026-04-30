@@ -25,297 +25,99 @@ Este archivo es la fuente editable de la presentacion. Cada slide se corrige com
 - 🟢 final - [Slide 19 - OpenCode + Plannotator: Primer Uso](#slide-19)
 - 🟢 final - [Slide 20 - Dos Contextos, Una Misma Dinamica](#slide-20)
 - 🟢 final - [Slide 21 - OpenCode: TUI Basica](#slide-21)
-- 🟢 final - [Slide 22 - Tipos De Uso / UI](#slide-22)
+- 🟢 final - [Slide 22 - Tipos De UI / UI](#slide-22)
 - 🟢 final - [Slide 23 - Aclaracion: UI, Uso Y Modo](#slide-23)
-- 🟢 final - [Slide 24 - UI: CLI No Interactiva (Caso QRGen)](#slide-24)
+- 🟢 final - [Slide 24 - UI: CLI No Interactiva](#slide-24)
 - 🟢 final - [Slide 25 - UI: TUI sobre QRGen](#slide-25)
 - 🟢 final - [Slide 26 - UI: Web / Attach](#slide-26)
 - 🟢 final - [Slide 27 - UI: IDE](#slide-27)
 - 🟢 final - [Slide 28 - Modo Plan / Build](#slide-28)
 - 🟢 final - [Slide 29 - Primer Prompt QRGen](#slide-29)
 - 🟢 final - [Slide 30 - Plannotator en QRGen](#slide-30)
-- 🟢 final - [Slide 31 - Metodo de Demo: QRGen](#slide-31)
-- 🟢 final - [Slide 32 - Fase 1: Estructura Base y Deploy](#slide-32)
-- 🟢 final - [Slide 33 - Fase 2: Generador QR Minimo](#slide-33)
-- 🟠 borrador - [Slide 34 - Fase 3: Login Estatico SHA256](#slide-34)
-- 🟠 borrador - [Slide 35 - Fase 4: Editor Visual Basico](#slide-35)
-- 🟠 borrador - [Slide 36 - Fase 5: Interaccion Profesional](#slide-36)
-- 🟠 borrador - [Slide 37 - Fase 6: Proyectos Y Exportacion](#slide-37)
-- 🟠 borrador - [Slide 38 - Mapa de Archivos QRGen](#slide-38)
-- 🟠 borrador - [Slide 39 - Checklist de Demo](#slide-39)
-- 🟠 borrador - [Slide 40 - Comandos Relevantes](#slide-40)
-- 🟠 borrador - [Slide 41 - Publicacion de esta Presentacion](#slide-41)
-- 🟠 borrador - [Slide 42 - Conclusiones](#slide-42)
-- 🟠 borrador - [Slide 43 - Proximos Pasos](#slide-43)
-- 🟠 borrador - [Slide 44 - Cierre](#slide-44)
+- 🟢 final - [Slide 31 - Metodo de Demo: QRGen (Ejemplos)](#slide-31)
+- 🟢 final - [Slide 32 - ¡A Crear!](#slide-32)
+- 🟢 final - [Slide 33 - OpenCode: Agnostico y Extensible](#slide-33)
+- 🟢 final - [Slide 34 - La IA no "Piensa"](#slide-34)
+- 🟢 final - [Slide 35 - El Humano es el Arquitecto](#slide-35)
+- 🟢 final - [Slide 36 - Recomendacion: Potencia vs Tarea](#slide-36)
+- 🟢 final - [Slide 37 - Cierre](#slide-37)
 
 ---
 
+<a id="slide-01"></a>
 ## Slide 01 - Portada
 **Estado:** 🟢 final
-**Objetivo:** Impacto visual inicial con OpenCode + Plannotator.
-**Anotaciones:** 
-- Título contundente en amarillo (#ffe6a3). 
-- Fondo radial semitransparente. 
-- "Del plan al deploy con QRGen".
-**Acción final:** Sincronizada con slides.md.
+**Objetivo:** Presentar OpenCode + Plannotator aplicados a QRGen.
+**Anotaciones:** Título contundente amarillo claro. Imagen radial semitransparente.
+**Accion final:** Renderizado en slides.md.
 
-## Slide 02 - Objetivo
-**Estado:** 🟢 final
-**Objetivo:** Definir el flujo riguroso de la demo.
-**Anotaciones:** Lista lineal: Idea, Plan, Build, Refinar, Deploy.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 03 - QRGen en una Frase
-**Estado:** 🟢 final
-**Objetivo:** Definir el MVP (Vue 3 + Vite).
-**Anotaciones:** Mock visual final. Resaltar que es una App estática.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 04 - La Presentacion Tambien Es Un Proyecto
-**Estado:** 🟢 final
-**Objetivo:** Mostrar meta-documentacion en GitHub Pages.
-**Anotaciones:** Fuente en Markdown. Despliegue automatizado.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 05 - Slides como Plan
-**Estado:** 🟢 final
-**Objetivo:** Explicar el ciclo asistido de correccion.
-**Anotaciones:** Restaurar tabla con fondo oscuro (parche CSS !important).
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 06 - Desglose: Estado
-**Estado:** 🟢 final
-**Objetivo:** Detallar estados de la tarea.
-**Anotaciones:** idea, borrador, final.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 07 - Desglose: Objetivo
-**Estado:** 🟢 final
-**Objetivo:** Criterio de aceptacion por hito.
-**Anotaciones:** Evitar dispersion.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 08 - Desglose: Anotaciones
-**Estado:** 🟢 final
-**Objetivo:** Mecanismo de correccion humana.
-**Anotaciones:** Notas que transforman el producto sin editar codigo final.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 09 - Desglose: Accion Final
-**Estado:** 🟢 final
-**Objetivo:** El puente tecnico entre plan y producto.
-**Anotaciones:** Instruccion de ejecucion.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 10 - Que Es OpenCode en esta Demo
-**Estado:** 🟢 final
-**Objetivo:** Definir capacidades del asistente embebido.
-**Anotaciones:** Imagen circular de tareas: leer, planificar, implementar, verificar.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 11 - Instalacion Y Ejecucion De OpenCode
-**Estado:** 🟢 final
-**Objetivo:** Hoja de ruta para el bloque tecnico inicial.
-**Anotaciones:** Desde CLI hasta TUI interactiva.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 12 - OpenCode: Instalacion
-**Estado:** 🟢 final
-**Objetivo:** Mostrar comandos oficiales.
-**Anotaciones:** curl oficial, npm y brew.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 13 - OpenCode: Verificacion Y Ayuda
-**Estado:** 🟢 final
-**Objetivo:** Validar CLI.
-**Anotaciones:** --version y --help.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 14 - OpenCode: Autenticacion Y Modelos
-**Estado:** 🟢 final
-**Objetivo:** Configurar motor con seguridad.
-**Anotaciones:** Icono 🔒 visible. No mostrar tokens. gh auth login recomendado.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 15 - OpenCode: Inicializar Un Proyecto
-**Estado:** 🟢 final
-**Objetivo:** Preparar el workspace y AGENTS.md.
-**Anotaciones:** /init en TUI. Memoria operativa del repo.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 16 - OpenCode: CLI No Interactiva
-**Estado:** 🟢 final
-**Objetivo:** opencode run para consultas rapidas.
-**Anotaciones:** Consultas puntuales con archivos adjuntos.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 17 - OpenCode: Sesiones Desde CLI
-**Estado:** 🟢 final
-**Objetivo:** Manejo de historial y exportacion.
-**Anotaciones:** session list -n 5. /rename para coherencia.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 18 - OpenCode: Plugins y Plannotator
-**Estado:** 🟢 final
-**Objetivo:** Habilitar herramientas avanzadas.
-**Anotaciones:** Clave "plugin" (singular). .opencode/opencode.json.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 19 - OpenCode + Plannotator: Primer Uso
-**Estado:** 🟢 final
-**Objetivo:** Mostrar simetria PLAN vs PRODUCTO (Meta-demo).
-**Anotaciones:** Imagen resaltada.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 20 - Dos Contextos, Una Misma Dinamica
-**Estado:** 🟢 final
-**Objetivo:** Separar entornos.
-**Anotaciones:** Presentacion vs QRGen real.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 21 - OpenCode: TUI Basica
-**Estado:** 🟢 final
-**Objetivo:** Atajos y comandos de interfaz interactiva.
-**Anotaciones:** @archivo, @explore, !shell, /undo.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 22 - Tipos De Uso / UI
-**Estado:** 🟢 final
-**Objetivo:** Mapa de interfaces disponibles.
-**Anotaciones:** CLI, TUI, Web, IDE.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 23 - Aclaracion: UI, Uso Y Modo
-**Estado:** 🟢 final
-**Objetivo:** Desambiguar el uso de la tecla Tab.
-**Anotaciones:** Tab solo alterna Plan/Build en TUI.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 24 - UI: CLI No Interactiva
-**Estado:** 🟢 final
-**Objetivo:** Ejemplo practico de run aplicado a QRGen.
-**Anotaciones:** Resumen del descriptor.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 25 - UI: TUI sobre QRGen
-**Estado:** 🟢 final
-**Objetivo:** Desarrollo interactivo en el repo real.
-**Anotaciones:** opencode /qrgen_demo.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 26 - UI: Web / Attach
-**Estado:** 🟢 final
-**Objetivo:** Acceso remoto con CORS.
-**Anotaciones:** web --cors "*".
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 27 - UI: IDE
-**Estado:** 🟢 final
-**Objetivo:** Integracion con extensiones (VS Code).
-**Anotaciones:** Foco en archivos y diffs.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 28 - Modo Plan / Build
-**Estado:** 🟢 final
-**Objetivo:** Mostrar el ciclo de control.
-**Anotaciones:** Disciplina de Planificar antes de Ejecutar.
-**Acción final:** Sincronizada con slides.md.
-
+<a id="slide-29"></a>
 ## Slide 29 - Primer Prompt QRGen
 **Estado:** 🟢 final
-**Objetivo:** Lanzamiento profesional (Senior).
-**Anotaciones:** Rol Senior, Path absoluto, repo, stack y objetivo funcional.
-**Acción final:** Sincronizada con slides.md.
+**Objetivo:** Lanzar el proyecto real con comando profesional detallado.
+**Anotaciones:** Usa este prompt: Actúa como Ingeniero Senior (Vue 3). Path: /home/mariano/Documentos/proyectos/qrgen_demo Repo: magm3333/qrgen_demo. Usa Vue 3 + Vite. Objetivo: Generador de QR estático con descargas y plantilla. Generá el plan en `fases-qrgen.md`. Al menos estas fases: 1- Estructura + Auto-deploy 2- Generación QR (MVP) "Usa el estilo y layout de magm3333.github.io/qrgen (Split-View de 2 columnas)" 3- Descarga en formatos JPG y PNG Y temas oscuro y claro 4- Editor de planillas que permita subir una imagen y solocar el qr generado automáticamente encima, poder rotarlo, moverlo y cambiarle de tamaño y descargar el resultado en SVG y PNG 5- Login/Logout 6- Ajustes y Agregados finales como exportacion de plantillas, etc No implementes todavía.
+**Accion final:** Texto del prompt sincronizado en slides.md.
 
-## Slide 30 - Plannotator en QRGen
+<a id="slide-31"></a>
+## Slide 31 - Metodo de Demo: QRGen (Ejemplos)
 **Estado:** 🟢 final
-**Objetivo:** Orquestacion del plan de la App.
-**Anotaciones:** Carga forzada por path absoluto. Imagen PLAN -> PRODUCTO.
-**Acción final:** Sincronizada con slides.md.
+**Objetivo:** Mostrar un roadmap de fases sugerido por la IA.
+**Anotaciones:** Aclarar que son FASES DE EJEMPLO.
+**Accion final:** Sincronizada con slides.md.
 
-## Slide 31 - Metodo de Demo: QRGen
+<a id="slide-32"></a>
+## Slide 32 - ¡A Crear!
 **Estado:** 🟢 final
-**Objetivo:** Roadmap de 5 hitos reales.
-**Anotaciones:** De Estructura a Deploy.
-**Acción final:** Sincronizada con slides.md.
+**Objetivo:** Mostrar el ciclo de vida lúdico del desarrollo asistido.
+**Anotaciones:** Imagen circular Plan -> Anotar -> Build -> App -> Refinar. Idea de juego y creación constante.
+**Accion final:** Incluir playing-creation-cycle.svg.
 
-## Slide 32 - Fase 1: Estructura Base y Deploy
+<a id="slide-33"></a>
+## Slide 33 - OpenCode: Agnostico y Extensible
 **Estado:** 🟢 final
-**Objetivo:** Bootstrap y deploy temprano.
-**Anotaciones:** npm create vite, config base URL.
-**Acción final:** Sincronizada con slides.md.
+**Objetivo:** Explicar que la herramienta no depende de un solo servicio y es ampliable.
+**Anotaciones:** Quitar Belo como punto. Agregar Servidores MCP y Plugins. Incluir "Caso Belo vs Anthropic!" como un warning (solo el titulo del warning).
+**Accion final:** Incluir agnostic-providers.svg actualizado.
 
-## Slide 33 - Fase 2: Generador QR Minimo
+<a id="slide-34"></a>
+## Slide 34 - La IA no "Piensa"
 **Estado:** 🟢 final
-**Objetivo:** Logica core reactiva.
-**Anotaciones:** qrcode lib + componente Vue.
-**Acción final:** Sincronizada con slides.md.
+**Objetivo:** Aclarar que es ejecucion probabilistica.
+**Anotaciones:** No hay consciencia, solo modelos matematicos. Imagen sutil demostrativa.
+**Accion final:** Incluir probabilistic-model.svg.
 
-## Slide 34 - Fase 3: Login Estatico SHA256
-**Estado:** 🟠 borrador
-**Objetivo:** Seguridad local sin servidor.
-**Anotaciones:** 
-- echo -n "pass" | sha256sum. 
-- crypto.subtle.digest.
-**Acción final:** Crear componente src/auth.js.
+<a id="slide-35"></a>
+## Slide 35 - El Humano es el Arquitecto
+**Estado:** 🟢 final
+**Objetivo:** Resaltar el valor del pensamiento humano.
+**Anotaciones:** Grafico de arquitecto diseñando y robots construyendo.
+**Accion final:** Incluir human-architect-robots.svg.
 
-## Slide 35 - Fase 4: Editor Visual Basico
-**Estado:** 🟠 borrador
-**Objetivo:** Composicion QR sobre imagen.
-**Anotaciones:** Canvas interactivo. Carga local de fondo.
-**Acción final:** Implementar TemplateEditor.vue.
+<a id="slide-36"></a>
+## Slide 36 - Recomendacion: Potencia vs Tarea
+**Estado:** 🟢 final
+**Objetivo:** Sugerir uso eficiente de modelos.
+**Anotaciones:** Mas potencia para planear, menos para codear tareas tecnicas.
+**Accion final:** Incluir model-power-recommendation.svg.
 
-## Slide 36 - Fase 5: Interaccion Profesional
-**Estado:** 🟠 borrador
-**Objetivo:** Handles de escala y rotacion.
-**Anotaciones:** Cursores de redimension.
-**Acción final:** Pulir interaccion Mouse.
+<a id="slide-37"></a>
+## Slide 37 - Cierre
+**Estado:** 🟢 final
+**Objetivo:** Despedida y repo.
+**Anotaciones:** Gracias. Link a GitHub.
+**Accion final:** Sincronizada con slides.md.
 
-## Slide 37 - Fase 6: Proyectos Y Exportacion
-**Estado:** 🟠 borrador
-**Objetivo:** Persistencia y salida PNG final.
-**Anotaciones:** JSON local y Canvas Export.
-**Acción final:** Implementar guardar/cargar.
 
-## Slide 38 - Mapa de Archivos QRGen
-**Estado:** 🟠 borrador
-**Objetivo:** Mostrar arquitectura tecnica.
-**Anotaciones:** Tabla Archivo -> Rol.
-**Acción final:** Completar mapa.
+<a id="slide-32"></a>
+## Slide 32 - ¡A Crear!
+**Estado:** 🟢 final
+**Objetivo:** Mostrar el ciclo de vida lúdico del desarrollo asistido.
+**Anotaciones:** Imagen circular Plan -> Anotar -> Build -> App -> Refinar. Idea de juego y creación constante.
+**Accion final:** Incluir playing-creation-cycle.svg.
 
-## Slide 39 - Checklist de Demo
-**Estado:** 🟠 borrador
-**Objetivo:** Guia operativa para el presentador.
-**Anotaciones:** Repos limpios, imagenes listas.
-**Acción final:** Completar lista.
-
-## Slide 40 - Comandos Relevantes
-**Estado:** 🟠 borrador
-**Objetivo:** Referencia rapida para audiencia.
-**Anotaciones:** build, dev, sha256, deploy.
-**Acción final:** Listar comandos clave.
-
-## Slide 41 - Publicacion de esta Presentacion
-**Estado:** 🟠 borrador
-**Objetivo:** Mostrar despliegue automatico de la charla.
-**Anotaciones:** GitHub Actions -> Pages.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 42 - Conclusiones
-**Estado:** 🟠 borrador
-**Objetivo:** Resumen de beneficios.
-**Anotaciones:** Velocidad, Control, Seguridad.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 43 - Proximos Pasos
-**Estado:** 🟠 borrador
-**Objetivo:** Escalabilidad del producto.
-**Anotaciones:** PWA, SVG.
-**Acción final:** Sincronizada con slides.md.
-
-## Slide 44 - Cierre
-**Estado:** 🟠 borrador
-**Objetivo:** Despedida y QR al repo.
-**Anotaciones:** Gracias.
-**Acción final:** Sincronizada con slides.md.
+<a id="slide-33"></a>
+## Slide 33 - Cierre
+**Estado:** 🟢 final
+**Objetivo:** Despedida y repo.
+**Anotaciones:** Gracias. Link a GitHub.
+**Accion final:** Sincronizada con slides.md.
